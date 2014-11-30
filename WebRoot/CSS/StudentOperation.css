@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+<!-- 对页面的布局以及各个标签的大小进行控制以及页面背景等进行设置-->
+
+#logoutdiv{
+	position:absolute;
+	right:20px;
+	top:20px
+}
+#menu{
+position:absolute;
+left:100px;
+top:250px;
+width:300px;
+height:350px;
+}
+#manager
+{
+margin-left:3cm;
+
+}
+#search
+{
+
+margin-top:1cm;
+}
+#analysis
+{
+margin-left:3cm;
+margin-top:1cm;
+}

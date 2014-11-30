@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+<%-- 表格区域在页面的位置--%>
+body{
+background-image:url("../Img/Login2.jpg");
+}
+#table{
+position:relative;
+margin-top:0.5cm;
+}
+<%-- 表格、边框等元素的属性设置--%>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+
+    position:absolute;
+    left:20px;
+    top:20px;
+    width: 60%;    
+    background-color: #f1f1c1;
+}

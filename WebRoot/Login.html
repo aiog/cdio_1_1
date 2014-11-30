@@ -1,0 +1,60 @@
+
+<html>
+<head>
+   <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="CSS/Login.css" media="screen" type="text/css"/>
+<!-- 引用的页面样式文件 -->
+ <script charset="UTF-8" src="JS/LoginCheck.js"></script>
+ <!--引用的js文件-->
+</head>
+<body>
+<h1 style="text-align:center;color:red">福州五中成绩分析系统</h1>
+
+<div>
+<form id = "Myform" action="JSP/checkinfo.jsp" method="post" onSubmit="return validate(this)">
+    <table id="Mytable" cellspacing="10">
+
+       <tr >
+
+           <td colspan="2" style="color:red;font-size:20pt">用户登录</td>
+
+       </tr>
+       <tr>
+
+           <td>用户ID:</td>
+
+           <td><input type="text" name="userid" size="15"></td>
+
+       </tr>
+
+       <tr>
+
+           <td>密&nbsp;&nbsp;码:</td>
+
+           <td><input type="password" name="password" size="10"></td>
+           
+
+       </tr>
+       <tr>
+
+           <td colspan="2">
+
+              <input type="submit" value="登陆" style="background:blue;width: 85px; height: 30px;" >
+
+              <input type="reset" value="重置" style="background:blue;width: 85px; height: 30px;">
+
+           </td>
+
+       </tr>   
+    </table>
+    <p>
+     <span><input type="radio"   name="type" value="teacher" />老师</span>
+      <span> <input type="radio" name="type" value="student" />学生</span>
+      <span><input type="radio"  name="type" value="manager"/>管理员</span>
+      </p>
+</form>
+</div>
+</body>
+</html>

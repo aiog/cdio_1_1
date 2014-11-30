@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+/* 实现对登录页面样式的控制
+@author 张燕清 2014-11-26
+*/
+body{
+background-image:url("../Img/Login2.jpg");
+}
+#Myform {
+position:absolute;
+right:80px;
+top:100px;
+width:300px;
+height:350px;
+border-style: solid;
+border-color: #0000ff;
+background-image:url("../Img/Login.jpg");
+}
+#Mytable{
+position:relative;
+left:40px;
+top:50px;
+
+}
+#myform p{
+position:absolute;
+left:30px;
+bottom:40px;
+
+}
